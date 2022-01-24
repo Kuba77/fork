@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./dist/css/styles.min.css" />
+  <script src="https://kit.fontawesome.com/b35c34ce54.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- 1 -->
+
+  <section class="header">
+    <div class="header-menu">
+      <img class="header-menu__img" src="./dist/img/Logo.svg" alt="#" />
+      <img class="header-menu__img-full" src="./dist/img/navbar-logo.svg" alt="#" />
+      <div class="header-menu__btn-wrapper">
+        <button class="header-menu__btn" onclick="window.location.href = 'https://www.google.com.ua/?hl=ru'">
+          Buy Now
+        </button>
+      </div>
+      <div class="header-menu__burger" onclick="showCross(this); showMenu()">
+        <span></span>
+      </div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list__item"><a class="menu-list__item-link" href="#">Overview</a></li>
+          <li class="menu-list__item"><a class="menu-list__item-link" href="#">About Fork</a></li>
+          <li class="menu-list__item"><a class="menu-list__item-link" href="#">Buying Options</a></li>
+          <li class="menu-list__item"><a class="menu-list__item-link" href="#">Support</a></li>
+        </ul>
+      </nav>
+      <ul id="dropdownMenu" class="header-menu__dropdown">
+        <li class="header-menu__dropdown-list"><a class="header-menu__dropdown-item" href="#">Overview</a></li>
+        <li class="header-menu__dropdown-list"><a class="header-menu__dropdown-item" href="#">About Fork</a></li>
+        <li class="header-menu__dropdown-list"><a class="header-menu__dropdown-item" href="#">Buying Options</a></li>
+        <li class="header-menu__dropdown-list"><a class="header-menu__dropdown-item" href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="header-fork">
+      <h1 class="header-fork__title">Fork App</h1>
+      <p class="header-fork__text">
+        A Real Gamechanger In The World Of Web-Development
+      </p>
+      <p class="header-fork__comments">v. 2.8 For Mac and Windows</p>
+    </div>
+    <button class="header-fork__btn" onclick="window.location.href = 'https://www.google.com.ua/?hl=ru'">Download For
+      Free Now</button>
+  </section>
+
+  <!-- 2 -->
+
+  <section class="container">
+
+    <div class="short-info">
+      <p class="short-info__bonus">Unlimited 30-Days Trial Period</p>
+      <h2 class="presentation__title">Revolutionary editor</h2>
+      <p class="short-info__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
+        laoreet vulputate dignissim. Sed id metus
+        id
+        quam auctor molestie eget ut augue.
+      </p>
+
+      <div class="users_activity_counter">
+        <ul class="users_activity_counter__list">
+          <li class="users_activity_counter__item"><a class="btn_activity_type">
+              <i class="far fa-eye"></i>
+              Watch</a><a class="btn_activity_counter">1,397</a>
+          </li>
+
+          <li class="users_activity_counter__item"><a class="btn_activity_type">
+              <svg aria-hidden="true" viewBox="1 -2 16 16" version="1.1" data-view-component="true" height="16"
+                width="16" class="octicon octicon-star v-align-text-bottom mr-1">
+                <path fill-rule="evenodd"
+                  d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z">
+                </path>
+              </svg>Star</a><a class="btn_activity_counter">2,784</a>
+          </li>
+
+          <li class="users_activity_counter__item"><a class="btn_activity_type">
+              <svg aria-hidden="true" viewBox="1 -1 16 16" version="1.1" data-view-component="true" height="16"
+                width="16" class="octicon octicon-repo-forked">
+                <path fill-rule="evenodd"
+                  d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z">
+                </path>
+              </svg>Fork</a><a class="btn_activity_counter">1,025</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="presentation">
+      <div class="about_our_product">
+
+        <h4 class="about_our_product__title">&#60; Here is what you get &#62;</h4>
+
+        <div class="about_our_product__block">
+
+          <div class="about_our_product__item">
+            <div class="about_our_product__pic">
+              <img src="./dist/img/newspaper.png" alt="#">
+            </div>
+
+            <div class="about_our_product__item content">
+              <h6 class="about_our_product__item title">Creatred to Make The Web Better</h6>
+              <p class="about_our_product__item text">Aenean cursus imperdiet nisl id fermentum. Aliquam
+                pharetra dui laoreet vulputate dignissim.
+                Sed
+                id
+                metus id quam auctor molestie eget ut augue.</p>
+            </div>
+          </div>
+
+          <div class="about_our_product__item">
+            <div class="about_our_product__pic">
+              <img src="./dist/img/timer.png" alt="#">
+            </div>
+
+            <div class="about_our_product__item content">
+              <h6 class="about_our_product__item title">Incredibly Powerful Tool</h6>
+              <p class="about_our_product__item text">Maecenas eu dictum felis, a dignissim nibh. Mauris
+                rhoncus felis odio, ut volutpat massa
+                placerat
+                ac.
+                Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+            </div>
+          </div>
+
+          <div class="about_our_product__item">
+            <div class="about_our_product__pic">
+              <img src="./dist/img/beaker.png" alt="#">
+            </div>
+
+            <div class="about_our_product__item content">
+              <h6 class="about_our_product__item title">Experimental Stuff</h6>
+              <p class="about_our_product__item text">Maecenas eu dictum felis, a dignissim nibh. Mauris
+                rhoncus felis odio, ut volutpat massa
+                placerat
+                ac.
+                Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            </div>
+          </div>
+
+          <div class="about_our_product__item">
+            <div class="about_our_product__pic">
+              <img src="./dist/img/button.png" alt="#">
+            </div>
+
+            <div class="about_our_product__item content">
+              <h6 class="about_our_product__item title">Creatred to Make The Web Better</h6>
+              <p class="about_our_product__item text">Maecenas eu dictum felis, a dignissim nibh. Mauris
+                rhoncus felis odio, ut volutpat massa
+                placerat
+                ac.
+                Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about_our_product__example_pic">
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section class="about-fork"> 
+      <h1 class="about-fork__title">People Are Talking About Fork</h1>
+      <div class="grid-container">
+      <div class="about-fork__list">
+        <img class="about-fork__img" src="dist/img/smash.svg" alt="#" />
+        <p class="about-fork__comments">
+          Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet.
+          Proin id dignissim magna. Sed varius urna et pulvinar venenatis.
+        </p>
+      </div>
+      <div class="about-fork__list">
+        <img class="about-fork__img" src="dist/img/codedrops.svg" alt="#" />
+        <p class="about-fork__comments">
+          Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum,
+          rhoncus molestie neque ac, mollis eleifend nibh.
+        </p>
+      </div>
+      <div class="about-fork__list">
+        <img class="about-fork__img" src="dist/img/w.svg" alt="#" />
+        <p class="about-fork__comments">
+          In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
+          erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac
+          vehicula.
+        </p>
+      </div>
+      <div class="about-fork__list">
+        <img class="about-fork__img" src="dist/img/budha.svg" alt="#" />
+        <p class="about-fork__comments">
+          Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet.
+          Proin id dignissim magna. Sed varius urna et pulvinar venenatis.
+        </p>
+      </div>
+      <div class="about-fork__list">
+        <img class="about-fork__img" src="dist/img/creativebloq.svg" alt="#" />
+        <p class="about-fork__comments">
+          Praesent ut eros tristique, malesuada lectus vel, lobortis massa.
+          Nulla faucibus lorem id arcu consequat faucibus.
+        </p>
+      </div>
+      <div class="about-fork__list">
+        <img class="about-fork__img" src="dist/img/tnw.svg" alt="#" />
+        <p class="about-fork__comments">
+          Fusce pharetra erat id odio blandit, nec  pharetra eros venenatis.
+          Pellentesque porttitor cursus massa et vestibulum.
+        </p>
+      </div>
+    </div>
+      <p class="about-fork__text">
+        Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris,
+        facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu
+        libero tincidunt consequat nec elementum orci. Cum sociis natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
+      <hr class="about-fork__border" />
+    </section>
+
+  <!-- 4 -->
+
+  <section class="subscription_pricing">
+
+    <h4 class="section_title">Fork Subscription Pricing</h4>
+
+    <div class="price_box">
+
+      <div class="programm_category">
+        <h6 class="programm_category title">Students</h6>
+
+        <div class="programm_category terms">
+          <p class="programm_category price">&#36;<span>29</span></p>
+          <p class="programm_category period">per month</p>
+          <p class="programm_category support base_prod">Personal License</p>
+
+          <button class="button"><a href="#">purchase</a></button>
+        </div>
+      </div>
+
+      <div class="programm_category">
+        <h6 class="programm_category title">professional</h6>
+
+        <div class="programm_category terms">
+          <p class="programm_category price">&#36;<span>59</span></p>
+          <p class="programm_category period">per month</p>
+          <p class="programm_category support">Professional License</p>
+          <p class="programm_category support">Email Support</p>
+          <button class="button"><a href="#">purchase</a></button>
+        </div>
+      </div>
+
+      <div class="programm_category active">
+        <h6 class="programm_category title">agency</h6>
+
+        <div class="programm_category terms">
+          <p class="programm_category price">&#36;<span>99</span></p>
+          <p class="programm_category period">per month</p>
+          <p class="programm_category support">1-12 Team Members</p>
+          <p class="programm_category support">Phone Support</p>
+          <button class="button"><a href="#">purchase</a></button>
+        </div>
+      </div>
+
+      <div class="programm_category">
+        <h6 class="programm_category title">enterprise</h6>
+
+        <div class="programm_category terms">
+          <p class="programm_category price">&#36;<span>159</span></p>
+          <p class="programm_category period">per month</p>
+          <p class="programm_category support">PUnlimited Team Members</p>
+          <p class="programm_category support">24/ 7 Phone Support</p>
+          <button class="button"><a href="#">purchase</a></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="./dist/js/scripts.min.js"></script>
+</body>
+
+</html>

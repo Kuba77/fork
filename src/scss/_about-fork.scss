@@ -1,0 +1,86 @@
+.about-fork{
+    background-image:url('../../dist/img/about-fork-bg.png');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+   
+    &__title{
+        @include mainfont;
+        color: #fff;
+        font-size: 36px;
+        line-height: 48px;
+        padding: 57px 15px 10px 15px;
+    }
+    &__img{
+        padding-bottom: 28px;
+    }
+    &__comments{
+        @include fontAboutForkP;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    &__text{
+        @include fontAboutForkP ($fweight: normal);
+        font-size: 14px;
+        line-height: 21px;
+        color: #A291A5;
+        padding: 22px 20px 22px 20px;
+    }
+    &__border{
+        margin: 0px;
+        border: none;
+        color: #645766;
+        background-color: #645766; 
+        height: 2px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    &__img{
+        padding-top: 40px;
+
+    }
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+    html,
+    body {
+        max-width:992px;
+        margin: 0 auto;
+    }
+    .about-fork{
+        background-image:url('../../dist/img/about-bg-tablet.png');
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5px;
+    }
+    .about-fork__list{
+        padding: 10px;
+    }
+   
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+    html,
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .about-fork{
+        background-image:url('../../dist/img/about-fork-desktop.png');
+        background-position: 50% 97%;
+    }
+    .about-fork__text{
+        width: 887px;
+        margin: 0 auto;
+    } 
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
