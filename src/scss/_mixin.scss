@@ -1,0 +1,49 @@
+@mixin mainfont ($weight: bold) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: $weight;
+}
+
+@mixin dropdownstyle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+@mixin fontAboutForkP ($fweight: bold) {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: $fweight;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin btn-style {
+    border-radius: 40px;
+    color: white;
+    padding: 11px 20px;
+    border: 0px;
+    cursor: pointer;
+}
+
+@mixin btn-hover-light {
+    background-color: white;
+    color: $accent-color;
+    border: 2px solid $accent-color;
+}
+
+@mixin text-bold-center {
+    font-weight: bold;
+    text-align: center;
+}
+
+@mixin buy-section-img {
+background-image: url(../img/bcg_buy_section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
